@@ -11,8 +11,8 @@ fi
 # User specific aliases and functions
 
 # Alias definations
-if [ -f ~/.env_alias ]; then
-        . ~/.env_alias
+if [ -f ~/.bin/.env_alias ]; then
+        . ~/.bin/.env_alias
 fi
 
 # PATH
