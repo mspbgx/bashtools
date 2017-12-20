@@ -9,7 +9,7 @@ function main {
     echo "Beispiel: curl-timing.sh http://google.de"
   else
     destination=$1
-    curl -w "@curl-timing.txt" -o /dev/null -s "$destination"
+    curl -w "@~/.curl-timing.txt" -o /dev/null -s "$destination"
   fi
 
 }

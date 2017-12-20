@@ -14,3 +14,6 @@ fi
 if [ -f ~/.env_alias ]; then
         . ~/.env_alias
 fi
+
+# PATH
+export PATH="$HOME/.bin:$PATH"
