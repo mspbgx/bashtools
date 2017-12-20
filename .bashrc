@@ -16,4 +16,4 @@ if [ -f ~/.bin/.env_alias ]; then
 fi
 
 # PATH
-export PATH="$HOME/.bin:$PATH"
+export PATH="$HOME/.bin:/$HOME/.bin/tools:$PATH"
